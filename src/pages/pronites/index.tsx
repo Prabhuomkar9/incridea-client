@@ -34,6 +34,11 @@ export default function App() {
           </div>
         </div>
       </div>
+      <audio
+        autoPlay={true}
+        loop={true}
+        src="/assets/mp3/DhvaniBhanushali5.mp3"
+      ></audio>
       <Canvas
         style={{ height: "100vh", width: "100vw" }}
         gl={{ alpha: false }}
